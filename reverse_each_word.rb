@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def reverse_each_word(string)
   array = string.split
@@ -6,4 +7,11 @@ def reverse_each_word(string)
   end
   string = array.join(" ")
   string
+=======
+def reverse_each_word(string)
+  array = []
+  string.split
+  array.reverse
+  array.join
+>>>>>>> 87155570077f50596aebe22154001ac670a6500f
 end
